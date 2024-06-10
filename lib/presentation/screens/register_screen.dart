@@ -119,8 +119,8 @@ class _RegisterFormState extends State<_RegisterForm> {
           ),
           FilledButton.tonalIcon(
             onPressed: () {
-              final isValid = _formKey.currentState!.validate();
-              if (!isValid) return;
+              // final isValid = _formKey.currentState!.validate();
+              // if (!isValid) return;
 
               registerCubit.onSubmit();
             },
